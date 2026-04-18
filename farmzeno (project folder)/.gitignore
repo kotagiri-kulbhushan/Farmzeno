@@ -1,39 +1,51 @@
-# Environment variables — NEVER commit
+# ===============================
+# 🔐 Environment Variables
+# ===============================
 .env
-farmzeno/.env
 
-# Large model files — add manually
+# ===============================
+# 🧠 ML Models (large files)
+# ===============================
 models/
-farmzeno/models/
+*/models/
 
-# Runtime generated folders
+# ===============================
+# 📁 Runtime Generated Data
+# ===============================
 instance/
-farmzeno/instance/
+*/instance/
 
-farmzeno/user_reports/
-farmzeno/uploads/
+user_reports/
+*/user_reports/
+
+uploads/
+*/uploads/
 
 imd_cache/
-farmzeno/imd_cache/
+*/imd_cache/
 
-uploads/*.jpg
-uploads/*.jpeg
-uploads/*.png
-uploads/*.webp
-farmzeno/uploads/*.jpg
-farmzeno/uploads/*.jpeg
-farmzeno/uploads/*.png
-farmzeno/uploads/*.webp
+# ===============================
+# 🖼 Uploaded Images
+# ===============================
+*.jpg
+*.jpeg
+*.png
+*.webp
 
-# Python cache
+# ===============================
+# 🐍 Python Cache
+# ===============================
 __pycache__/
 *.pyc
 *.pyo
 
-# Database
+# ===============================
+# 🗄 Database Files
+# ===============================
 *.db
-farmzeno/*.db
 
-# OS files
+# ===============================
+# 💻 OS Files
+# ===============================
 .DS_Store
 Thumbs.db
