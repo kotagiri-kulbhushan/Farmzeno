@@ -216,7 +216,6 @@ http://localhost:5000
 farmzeno (project folder)/
 ├── app.py
 ├── requirements.txt
-├── README.md
 ├── farmzeno.db
 │
 ├── models/
