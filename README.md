@@ -216,7 +216,9 @@ http://localhost:5000
 farmzeno (project folder)/
 ├── app.py
 ├── requirements.txt
-├── farmzeno.db
+│
+├── instance/
+│   └── farmzeno.db        ← auto-created SQLite DB
 │
 ├── models/
 │   ├── disease_model.py
